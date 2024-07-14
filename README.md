@@ -4,6 +4,8 @@
 
 Mục tiêu của project là một app thực hiện detect người đội mũ bảo hiểm và người không đội mũ bảo hiểm trên các video đường phố theo thời gian thực.
 
+Project phi lợi nhuận phục vụ cho việc học.
+
 Chi tiết trong các phần notebook.
 
 ## PHƯƠNG HƯỚNG
@@ -31,8 +33,8 @@ Vẽ bounding box và nhãn kết quả lên hình ảnh gốc.
 
 ## Dataset
 
-Thu thập và annotate dataset thông qua cắt ảnh từ camera đường phố và chụp ảnh những người tham gia giao thông trực tiếp trên đường, camera đường phố ảnh trên mạng.
-- Dự kiến >1000 ảnh và >5000 instance cho mỗi class
+Thu thập và annotate dataset thông qua cắt ảnh từ camera đường phố thành phố HCM và chụp ảnh những người tham gia giao thông trực tiếp trên đường.
+- >1000 ảnh và >5000 instance cho mỗi class
 - Hình ảnh đa dang, từ các thời điểm khác nhau trong ngày, thời tiết khác nhau, ánh sáng khác nhau, các góc khác nhau
 - Hình background chiếm khoảng 1% tổng số hình ảnh, hình ảnh không có đối tượng nào được thêm vào tập dữ liệu để giảm kết quả FP
 
