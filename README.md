@@ -2,7 +2,11 @@
 
 ## Giới thiệu
 
-## PHƯƠNG HƯỚNG PHÁT TRIỂN
+Mục tiêu của project là một app thực hiện detect người đội mũ bảo hiểm và người không đội mũ bảo hiểm trên các video đường phố theo thời gian thực.
+
+Chi tiết trong các phần notebook.
+
+## PHƯƠNG HƯỚNG
 
 
 ### Model
@@ -32,7 +36,7 @@ Thu thập và annotate dataset thông qua cắt ảnh từ camera đường ph�
 - Hình ảnh đa dang, từ các thời điểm khác nhau trong ngày, thời tiết khác nhau, ánh sáng khác nhau, các góc khác nhau
 - Hình background chiếm khoảng 1% tổng số hình ảnh, hình ảnh không có đối tượng nào được thêm vào tập dữ liệu để giảm kết quả FP
 
-## Thuật toán xử lý hình ảnh và video để ứng dụng thời gian thực
+## Thuật toán xử lý hình ảnh và video để ứng dụng
 
 - Xử lý hình ảnh ban đêm: gamma correction và histogram equalization
 - Tăng fps: frame skipping
